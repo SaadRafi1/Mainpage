@@ -13,7 +13,6 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var price: UILabel!
     @IBOutlet weak var like: UIButton!
     @IBOutlet weak var buycart: UIButton!
-
 }
 
 

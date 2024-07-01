@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6A626C8B295186CE183C207D /* Pods_Mainpage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9C7882379FC674F4191B11D /* Pods_Mainpage.framework */; };
+		AD2A31652C328CA200610086 /* VegetableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A31642C328CA200610086 /* VegetableManager.swift */; };
+		AD2A31672C32923700610086 /* VegetableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2A31662C32923700610086 /* VegetableModel.swift */; };
 		AD2F4BEA2C2D47E700B05F82 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2F4BE92C2D47E700B05F82 /* TabBarVC.swift */; };
 		AD2F4BF02C2D537200B05F82 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2F4BEF2C2D537200B05F82 /* ProfileVC.swift */; };
 		AD356AD52C1C631A000AE9D2 /* DescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD356AD42C1C631A000AE9D2 /* DescriptionVC.swift */; };
@@ -29,6 +31,8 @@
 /* Begin PBXFileReference section */
 		116C55BEF71B9C3DB11E944B /* Pods-Mainpage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mainpage.release.xcconfig"; path = "Target Support Files/Pods-Mainpage/Pods-Mainpage.release.xcconfig"; sourceTree = "<group>"; };
 		5E3DCCDAB2AE1E76F1F06829 /* Pods-Mainpage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mainpage.debug.xcconfig"; path = "Target Support Files/Pods-Mainpage/Pods-Mainpage.debug.xcconfig"; sourceTree = "<group>"; };
+		AD2A31642C328CA200610086 /* VegetableManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableManager.swift; sourceTree = "<group>"; };
+		AD2A31662C32923700610086 /* VegetableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetableModel.swift; sourceTree = "<group>"; };
 		AD2F4BE92C2D47E700B05F82 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		AD2F4BEF2C2D537200B05F82 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileVC.swift; path = ../ProfileVC.swift; sourceTree = "<group>"; };
 		AD356AD42C1C631A000AE9D2 /* DescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionVC.swift; sourceTree = "<group>"; };
@@ -79,6 +83,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AD2A31632C328BD800610086 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD2A31642C328CA200610086 /* VegetableManager.swift */,
+				AD2A31662C32923700610086 /* VegetableModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		ADCA4EC32C16DDA100BCEE39 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +113,7 @@
 		ADCA4ECE2C16DDA100BCEE39 /* Mainpage */ = {
 			isa = PBXGroup;
 			children = (
+				AD2A31632C328BD800610086 /* Models */,
 				ADD32BF12C2C170800E128FE /* Extension */,
 				ADD32BED2C2C04D300E128FE /* App */,
 				ADD32BEA2C2BF26100E128FE /* Manageers */,
@@ -284,11 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2A31672C32923700610086 /* VegetableModel.swift in Sources */,
 				ADD32BE82C2BEABF00E128FE /* SignUpVC.swift in Sources */,
 				ADDB08592C1ACDB100E76DC2 /* CardpaymentVC.swift in Sources */,
 				ADCA4ED42C16DDA100BCEE39 /* MainPageVC.swift in Sources */,
 				ADD32BE42C2BDE2F00E128FE /* LoginVC.swift in Sources */,
 				AD356AD52C1C631A000AE9D2 /* DescriptionVC.swift in Sources */,
+				AD2A31652C328CA200610086 /* VegetableManager.swift in Sources */,
 				ADD32BF32C2C173500E128FE /* Collection + Extension.swift in Sources */,
 				ADCA4ED02C16DDA100BCEE39 /* AppDelegate.swift in Sources */,
 				ADD32BEC2C2BF29B00E128FE /* UserDefaultManager.swift in Sources */,

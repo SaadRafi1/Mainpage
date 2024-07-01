@@ -346,6 +346,7 @@
                     <connections>
                         <outlet property="AddToCartBtn" destination="JpN-9S-RZ2" id="FmG-S1-qAZ"/>
                         <outlet property="Likebtn" destination="EMZ-jy-SnG" id="HOi-Hj-0xJ"/>
+                        <outlet property="grams" destination="hkz-5e-mfJ" id="8p8-cp-KCe"/>
                         <outlet property="image" destination="GSz-e2-gkh" id="oZ5-nf-GNL"/>
                         <outlet property="price" destination="Xmw-Wi-hi4" id="EZA-Hk-6Nx"/>
                         <outlet property="titleLabel" destination="ZJt-XY-9Nd" id="tik-dd-7ea"/>
